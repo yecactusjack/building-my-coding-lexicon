@@ -1,0 +1,79 @@
+#Fake Fan Question Generator
+print("Jobs Fan boy")
+ayatjfb= input("Hey so are you a steve jobs fans boy? ")
+if ayatjfb == "Yes":
+  dhkhtc= input("Did steve jobs know how to code? ")
+  if dhkhtc == "No":
+    print("You got that right.")
+    Bwkosdhw=input("But what kind of slippers did he wear? ")
+    if Bwkosdhw == "Birkenstock":
+      print("Okay, you see to be legit.")
+      wkojdhw=input("What kind of jeans did he wear?")
+      if wkojdhw =="Levi's":
+        print("Okay, but lets see if you get the next one" )
+        shirt=input("What kind of shirt did he wear? ")
+        if shirt == "A white shirt":
+          print("Oh yes, a white shirt and a blue jeans with Birkenstocks. A classic steve out fit")
+          slq=input("What kind of music he listen to? ")
+          if slq==("Bob Dylan"):
+            print("Well, I guess you are a real fan. But let's see if you get the last one correctly.")
+            steve=input("Who is you favourite Steve? ")
+            if steve == ("Steve Jobs"):
+              print("Yes, indeed you are a true Steve Jobs fan. May the Steve be with you")
+            elif steve==("Steve Wozniak"):
+              print("Well I guess you are Steve Jobs himself then.")
+            else:
+              print("Be gone Imposter, but may Steve be with you since you came this far.")
+            
+          else:
+            print("It is Bob Dylan, even a kid would know that.")
+      else:
+        print("STFU! You are not a real fan")
+    else:
+      print("GTFO, You are not who you claim to be")  
+  else:
+    print("Fuck off!")
+
+elif ayatjfb =="No":
+  print("Well, then may I ask why")
+  wary=input("What is the reason?" )
+  if wary=="I don't know":
+    print("Well did you know he changed the world in 2007 by introducing the Iphone")
+    fact=input("Now isn't that an interesting fact. Did you know this?")
+    if fact == "Yes, I knew but I still dont like him.":
+      print("Well motherfucker, you deserve to die. Fuck off and rot in hell.")
+    elif fact == "Well I knew it but I dont care enough":
+      print("Fuckoff then.")
+    elif fact == "Wow that is amazing, I did not know that. Who is that god man.":
+      print("Well, that is steve jobs for you. Isnt he the most amazing person in tech. One of the most amazing I mean")
+      ofy=input("Now what do you say would you like to know about him and come and take this test?")
+      if ofy=="Yes":
+        print("So long, then young one.")
+      elif ofy=="Ykw, No. So long, and thanks for the fish.":
+        print("Oh shit")
+        played=input("Did I just get played?!")
+        if played=="Fuck yea, loser!":
+          print("Fuxk No! You win.")
+        elif played == "Naah, just kidding will be back soon tho for the test":
+          print("lol, you had me for a second see ya soon tho. So, Song!")
+        elif played =="Guess you will never know":
+          print("Ahh, that is even more fucked")
+          whydt=input("Why would you do something like that?")
+          if whydt=="Just for fun maybe.":
+            print("You will not even tell me the reason why? You evil being")
+            reason=input("Would you tell me the reason tho?")
+            if reason==("No"):
+             print("Ahhhhhh")
+            elif reason==("Yes, but not now."):
+              print("No, you evil person.")
+            else:
+              print("You know what, I dont care. So long and thanks for the fish;)")
+        else:
+          print("You know what, I dont care. So long and thanks for the fish;)")
+      else:
+        print("Bye and so long")
+    else:
+      print("Bye and so long fuxker, I dont have the time.")
+      
+  else:
+    print("Well I am not intrested in that at all, google it on your phone btw do you know if you are using a touchphone is because of that man!")
