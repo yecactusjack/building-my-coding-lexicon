@@ -1,0 +1,11 @@
+#Tip Calculator
+print()
+print("Hey, there")
+spend=float(input("How mich did you spend? "))
+tip=float(input("What percentage to yoou want to tip? "))
+people=int(input("How many people were there in your group? "))
+tipo=(tip/100)*spend
+fs=tipo+spend
+ffs=fs/people
+fs=round(fs,2)
+print("You all owe $",ffs)
