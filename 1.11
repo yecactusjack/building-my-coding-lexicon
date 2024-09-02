@@ -1,0 +1,14 @@
+#Calculating the number of seconds in a year
+lego=input("Would you like to know how many seconds are there in a year? ")
+if lego=="yes" or lego=="Yes":
+  whichyear=input("For which year would like for, A normal year or a leap year? ")
+  if whichyear=="Normal year" or whichyear=="normal year":
+    numberofsecondsinayear=60*60*24*365
+    print("Sure, so there are about ",numberofsecondsinayear," seconds in one year")
+  elif whichyear=="leap year" or whichyear=="Leap year":
+    numberofsecondsinaleapyear=60*60*24*366
+    print("Sure, so there are about",numberofsecondsinaleapyear,"seconds in one year")
+  else:
+    print("Bro what kinda year is that?")
+else:
+  print("Then why are you even here dude?")
