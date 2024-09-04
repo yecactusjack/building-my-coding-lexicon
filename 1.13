@@ -1,0 +1,33 @@
+#Exam Grade Calculator
+#Name of the exam
+#Max possible score
+#Your score
+#How do thier grades equal to in grade
+print("Exam Grade Calculator")
+print()
+whyhere=input("So you are here to know you percentage and grade?")
+if whyhere=="yes" or whyhere=="Yes":
+  nofe=input("What is the name of the exam? ")
+  mps=float(input("Oh "+ nofe +" definitely sounds cool. So how much is the maximum possible score in"+ nofe +" ? "))
+  uts=float(input("So how much did you score in it? "))
+  lfnm=uts/mps
+  fnm=lfnm * 100
+  flnl=round(fnm,3)
+  if flnl>=90:
+    print("So you have gotten A+ Grade and you percentage is "+ str(flnl) +" You must be feeling happy:)")
+  elif flnl>=80:
+    print("Honesty, those are pretty good grades. "+ str(flnl) +" Percent is a lot. You must be jacked to the tits lol:) btw your grade is A")
+  elif flnl>=70:
+     print("Well you know what they say about people who get "+ str(flnl) +" percent marks, You guys change the world:) btw your grade is B")
+  elif flnl>=60:
+     print("Well seems not so bad but there room for improvement with "+ str(flnl) +" percent marks you have room for improvement btw your grade is C")
+  elif flnl>=50:
+    print("Well you need to study hard, or find something else that you are intrested in because "+ str(flnl) +" percent is somewhat low, but dw you can imporve:) btw your grade is D")
+  elif flnl>=40:
+    print("You have just barely passed. "+ str(flnl) +" percent is not much dude. What is going on? btw your grade is D-")
+  elif flnl<40:
+    print("Well you have scored "+ str(flnl) +" percent and guess what you need to repeat his dude! It should not be any surprise that you grade is F:(")
+  else:
+    print("Try again with a valid input")
+else:
+  print("Why tf are you even here dude?")
