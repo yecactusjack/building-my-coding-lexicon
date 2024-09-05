@@ -1,0 +1,30 @@
+from getpass import getpass as input
+from re import S
+print("Rock, Paper and Scissor.")
+print()
+print("Rules: For Rock type R, for Paper type P and for Scissor type S. Anthing other than this will equate to an invalid respose. Happy Rock, paper, scissoring lol:)")
+print()
+nameofp1=input("What is your name Player 1? ")
+playerp2=input("What is your name Player 2? ")
+player1=input("What is your move "+nameofp1+" ?" )
+player2=input("What is your move "+playerp2+" ?" )
+if player1=="R" and player2=="S":
+  print(""+nameofp1+" has won.")
+elif player1=="S" and player2=="R":
+  print(""+playerp2+" has won")
+elif player1=="S" and player2=="S":
+  print("This is a draw.")
+elif player1=="R" and player2=="R":
+  print("This is a draw.")
+elif player1=="P" and player2=="R":
+  print(""+nameofp1+" has won.")
+elif player1=="R" and player2=="P":
+  print(""+playerp2+" has won.")
+elif player1=="P" and player2=="P":
+  print("This is a draw.")
+elif player1=="S" and player2=="P":
+  print(""+nameofp1+" has won.")
+elif player1=="P" and player2=="S":
+  print(""+playerp2+" has won.")
+else:
+  print("This is an invalid respose.")
