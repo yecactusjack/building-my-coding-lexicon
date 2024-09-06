@@ -1,0 +1,19 @@
+dyu=""
+dyu = input("Do you want to hear any animal sounds? ")
+while dyu == "yes":
+    sound = input("What animal do you want to hear the sound of? ")
+    if sound=="cow":
+      print("Mooo")
+    elif sound=="sheep":
+      print("Baaa")
+    elif sound=="snake":
+      print("hiss")
+    elif sound=="lion":
+      print("roar")
+    elif sound=="giraffe":
+      print("Sorry, its infrasonic")
+    else:
+      print("not available, sorry:(")
+    dyu = input("Do you want to hear any animal sounds? ")
+if dyu != "yes":
+    exit
