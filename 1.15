@@ -1,4 +1,3 @@
-dyu=""
 dyu = input("Do you want to hear any animal sounds? ")
 while dyu == "yes":
     sound = input("What animal do you want to hear the sound of? ")
