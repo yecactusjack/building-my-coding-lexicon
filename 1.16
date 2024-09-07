@@ -1,20 +1,35 @@
-counter=1
-secondone = ""  # Initialize secondone to a default value
+counter = 1
+
 while True:
-  firstone=input("Mahiya de ____ vich naam: ")
-  if firstone=="Seher" or firstone=="seher":
-    secondone=input("hamara bi ____: ")
-    if secondone=="hove" or secondone=="Hove":  # Corrected check for secondone
-      thirdone=input("Rab is judayi ____ paida he kara ve: ")
-      if thirdone=="Nalo" or thirdone=="nalo":
-        print("You got the correct lyrics in", counter, "attempt(s).")
-        break
-      else:
-        print("Nope! Try again!")
-        counter +=1
+    firstpara = input("If you can bear to hear the truth you’ve spoken, Twisted by knaves to make a trap for fools,____________________________, And stoop and build ’em up with wornout tools.  ")
+
+    if firstpara.lower() == "or watch the things you gave your life to broken":
+        secondpara = input("If you can make one heap of all your winnings, And risk it on one turn of pitch-and-toss, ____________________, And never breathe a word about your loss.   ")
+
+        if secondpara.lower() == "and lose, and start again at your beginnings":
+            thirdpara = input("If you can force your heart and nerve and sinew, To serve your turn long after they are gone, _________________, Except the Will which says to them: ‘Hold on!’\n")
+
+            if thirdpara.lower() == "and so hold on when there is nothing in you":
+                fourthpara = input("If you can talk with crowds and keep your virtue, __________________________, If neither foes nor loving friends can hurt you, If all men count with you, but none too much.   ")
+
+                if fourthpara.lower() == "or walk with kings – nor lose the common touch":
+                    fifthpara = input("If you can fill the unforgiving minute with sixty seconds’ worth of distance run, ___________________, And which is more you’ll be a Man my son!   ")
+
+                    if fifthpara.lower() == "yours is the earth and everything that’s in it":
+                        print("Congratulations, you have completed this poem!")
+                        break
+                    else:
+                        print("Sorry, try again :(")
+                        counter += 1
+                else:
+                    print("Sorry, try again :(")
+                    counter += 1
+            else:
+                print("Sorry, try again :(")
+                counter += 1
+        else:
+            print("Sorry, try again :(")
+            counter += 1
     else:
-      print("Nope! Try again!")
-      counter +=1
-  else:
-    print("Nope! Try again!")
-    counter +=1
+        print("Sorry, try again :(")
+        counter += 1
