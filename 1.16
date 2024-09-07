@@ -1,0 +1,20 @@
+counter=1
+secondone = ""  # Initialize secondone to a default value
+while True:
+  firstone=input("Mahiya de ____ vich naam: ")
+  if firstone=="Seher" or firstone=="seher":
+    secondone=input("hamara bi ____: ")
+    if secondone=="hove" or secondone=="Hove":  # Corrected check for secondone
+      thirdone=input("Rab is judayi ____ paida he kara ve: ")
+      if thirdone=="Nalo" or thirdone=="nalo":
+        print("You got the correct lyrics in", counter, "attempt(s).")
+        break
+      else:
+        print("Nope! Try again!")
+        counter +=1
+    else:
+      print("Nope! Try again!")
+      counter +=1
+  else:
+    print("Nope! Try again!")
+    counter +=1
