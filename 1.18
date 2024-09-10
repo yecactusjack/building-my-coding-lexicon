@@ -1,0 +1,18 @@
+from typing import Counter
+counter=1
+thenumber=200924
+print("Hey, Welcome to the guessing game")
+print()
+while True:
+    guess=int(input("What do you think is the number? "))
+    if guess < 0:
+      print("Naah, I am done with this.")
+      exit()
+    elif guess > thenumber:
+      print("Naah, you guess is too high.")
+      counter+=1
+    elif guess < thenumber:
+      print("Naah, you guess is too low.")
+      counter+=1
+    elif guess==thenumber:
+     exit("Congratulations, you have guessed it correctly in  "+str(counter)+" attempts.")
