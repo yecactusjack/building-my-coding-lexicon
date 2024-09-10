@@ -1,0 +1,35 @@
+from getpass import getpass as input
+from re import S
+print("Rock, Paper and Scissor.")
+print()
+print("Rules: For Rock type R, for Paper type P and for Scissor type S. Anthing other than this will equate to an invalid respose. Happy Rock, paper, scissoring lol:)")
+print()
+counterx=0
+countery=0
+nameofp1=input("What is your name Player 1? ")
+playerp2=input("What is your name Player 2? ")
+while True:
+    player1=input("What is your move "+nameofp1+" ?" )
+    player2=input("What is your move "+playerp2+" ?" )
+    if player1 not in "RFS" or player2 not in "RFS":
+      print("This is an invalid response!")
+      continue
+    if player1=="R" and player2=="S":
+      print(nameofp1+ "has won the game!")
+      counterx+=1
+    elif player1=="P" and player2=="R":
+      print(nameofp1+ "has won the game!")
+      counterx+=1
+    elif player1=="S" and player2=="P":
+      print(nameofp1+ "has won the game!")
+      counterx+=1
+    elif player1==player2:
+     print("This is a draw!")
+    else:
+      print(nameofp1+ " has won the game!")
+      countery+=1 
+    if counterx == 3:
+         print(player1 + " has won the game! and the final score was " + str(counterx) + "-" + str(countery))
+    elif countery == 3:
+     print(player2 + " has won the game! and the final score was " + str(countery) + "-" + str(counterx))
+    exit()
