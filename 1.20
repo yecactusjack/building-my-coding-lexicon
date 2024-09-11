@@ -1,0 +1,15 @@
+print("Welcome to my number list generator.")
+print()
+print("You are going to give me a number you want to start with, an ending number, and by how many you want me to add each time.")
+print()
+
+inputx=int(input("What number do you want to start with?"))
+inputy=int(input("What number do you want to end with? "))
+if inputx==inputy:
+  exit("Naah, this is not valid try again")
+inputz=int(input("How many should I add each time?"))
+if inputz==0:
+ inputz=1
+
+for i in range(inputx,inputy,inputz):
+  print(i)
