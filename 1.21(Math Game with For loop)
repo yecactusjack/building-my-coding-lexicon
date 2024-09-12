@@ -1,0 +1,22 @@
+#Math Game
+counter=0
+print("Let's test you mathematical abilities")
+print() 
+choose=int(input("Choose a number: "))
+lesgoo=input(f"Oh, {choose} is an intresting number but are you sure you will be able to anser everything about it: Y/N ")
+if lesgoo!="Y":
+  exit("Restart and choose an easy number then Bitch!")
+else:
+  print("Okay, so lets test out your abilities on", choose ,)
+  for i in range(8435,9435,50):
+    correctans=i*choose
+    print(choose, "X" ,i,"=" )
+    ansxo=int(input("Ans: "))
+    if ansxo!=correctans:
+      print("The correct ans is", correctans,)
+    elif ansxo==correctans:
+      counter+=1
+  if counter==20:
+    print("Congratulations, you got all the answers right!🥳" )
+  else:
+   print("You only got ",counter," right, I guess you did not know everything about the number", choose ,"but atleast you tried:)" )
