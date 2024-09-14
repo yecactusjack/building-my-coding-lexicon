@@ -1,0 +1,21 @@
+from typing import Counter
+import random
+counter=0
+thenumber=random.randint(1,1000000)
+print("Hey, Welcome to the guessing game")
+print()
+while True:
+    guess=int(input("What do you think is the number? "))
+    if guess=="naah i give you":
+      exit("The number was" +str(thenumber)+" lol.")
+    elif guess < 0:
+      print("Naah, I am done with this.")
+      exit()
+    elif guess > thenumber:
+      print("Naah, you guess is too high.")
+      counter+=1
+    elif guess < thenumber:
+      print("Naah, you guess is too low.")
+      counter+=1
+    elif guess==thenumber:
+      exit("Congratulations, you have guessed it correctly in  "+str(counter)+" attempts.")
