@@ -1,9 +1,11 @@
-while True:
-  def loginpro():
-    enter=input("What is you username? ")
-    pw=input("What is you password? ")
+def loginpro():
+  while True:
+    enter=input("What is your username?")
+    pw=input("What is your password?")
     if enter=="Farraz" and pw=="letsfuxkingo":
-      exit("Wellcome to REPLIT!!")
+      print("Welcome to Replit!")
+      break
     else:
-      print("Whoops, either your username or your password is wrong.")
-  loginpro()
+     print("fuxk off")
+
+loginpro()
