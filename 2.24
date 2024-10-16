@@ -1,0 +1,18 @@
+#Create a subrounte of n number of sides
+print("Unlimited sides roller")
+def dieroller():
+  import random
+  gametime=input("So would you like to roll a dice? ")
+  if gametime.lower()=="yes":
+    side=int(input("How many sides"))
+    print("You rolled", random.randint(1,side))
+    again=input("Would you like to roll again? ")
+    while again.lower()=="yes":
+       side = int(input("How many sides"))
+       print("You rolled", random.randint(1, side))
+       again = input("Roll again? ")
+     
+
+
+
+dieroller()
