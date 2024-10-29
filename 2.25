@@ -1,0 +1,21 @@
+import random
+def momo(sides):
+  result = random.randint(1,sides)
+  return result
+
+
+def romo():
+  roll_6_sided_dice = momo(6)
+  roll_8_sided_dice = momo(8)
+  health = roll_6_sided_dice * roll_8_sided_dice
+  return health
+
+
+print("⚔️Character stats generator⚔️")
+
+haveACharacter = "yes"
+while haveACharacter == "yes":
+  character = input("Name your warrior: ")
+  health = str(romo())
+  print("Their health is ", health,"hp" ) 
+  haveACharacter = input("Want to create another character?")
